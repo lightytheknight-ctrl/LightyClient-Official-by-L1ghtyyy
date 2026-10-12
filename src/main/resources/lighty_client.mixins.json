@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "pl.lighty.client.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "EntityMixin",
+    "PlayerEntityMixin",
+    "ClientPlayerEntityMixin",
+    "ClientPlayNetworkHandlerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}

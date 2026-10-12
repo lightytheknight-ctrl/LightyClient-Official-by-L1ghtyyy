@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "lighty_client",
+  "version": "${version}",
+  "name": "Lighty Client",
+  "description": "Lighty Client - tracery, nametagi, hitboxy, xray, NoPush. NoPush. Menu pod prawym Shiftem.",
+  "authors": ["L1ghtyyy"],
+  "license": "MIT",
+  "environment": "client",
+  "mixins": ["lighty_client.mixins.json"],
+  "entrypoints": {
+    "client": ["pl.lighty.client.LightyClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
